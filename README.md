@@ -26,7 +26,7 @@ photoView.SetImageResource(Resource.Drawable.image);
 
 // ... or ...
 Glide.With(this)
-    .Load("https://tinyurl.com/cmlekc2")
+    .Load(Android.Net.Uri.Parse("https://tinyurl.com/cmlekc2"))
     .Into(photoView);
 ```
 Build
