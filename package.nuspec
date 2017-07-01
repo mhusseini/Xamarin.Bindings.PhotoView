@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Xamarin.Bindings.PhotoView</id>
-    <version>2.1.1</version>
+    <version>2.1.2</version>
     <title>Xamarin.Bindings.PhotoView</title>
     <authors>Munir Husseini</authors>
     <owners>Munir Husseini</owners>
@@ -14,6 +14,6 @@
     <tags>Xamarin PhotoView Android Binding</tags>
   </metadata>
   <files>
-      <file src="bin\Release\Xamarin.Bindings.PhotoView.dll" target="lib\MonoAndroid10" />
+    <file src="bin\Release\Xamarin.Bindings.PhotoView.dll" target="lib\MonoAndroid10" />
   </files>
 </package>

@@ -45,9 +45,7 @@
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Additions\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\photoview-release.aar" />
   </ItemGroup>

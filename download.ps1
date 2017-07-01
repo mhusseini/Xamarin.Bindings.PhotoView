@@ -3,8 +3,8 @@ $version = Invoke-WebRequest -Uri https://jitpack.io/api/builds/com.github.chris
     % { $_.Content } | 
     ConvertFrom-Json | 
     % {$_.version}
-#$url = "https://jitpack.io/com/github/chrisbanes/PhotoView/$version/PhotoView-$version.aar"
-#Invoke-WebRequest -Uri $url -OutFile "Jars/photoview-release.aar"
+$url = "https://jitpack.io/com/github/chrisbanes/PhotoView/$version/PhotoView-$version.aar"
+Invoke-WebRequest -Uri $url -OutFile "Jars/photoview-release.aar"
 
 $assemblyInfo = ".\Properties\AssemblyInfo.cs"
 $tmp = "$assemblyInfo.tmp"
