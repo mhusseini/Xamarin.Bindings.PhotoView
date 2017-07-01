@@ -31,7 +31,7 @@ Glide.With(this)
 ```
 Build
 -----
-Just run `build.bat` in the Visual Studio Developer Command Prompt.
+To automatically download the latest AAR, update the version information in AssemlyInfo.cs and the nuspec file and then build and package the binding assembly, just run `build.bat` in the Visual Studio Developer Command Prompt.
 
 License
 --------
