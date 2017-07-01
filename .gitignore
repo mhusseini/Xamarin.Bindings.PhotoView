@@ -3,3 +3,4 @@ obj/
 Jars/*
 *.exe
 *.nupkg
+*.user
